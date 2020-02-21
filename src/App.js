@@ -6,7 +6,7 @@ import Landing from './pages/landing/landing';
 import About from './pages/about/about';
 import Contact from './pages/contact/contact';
 import CodeFolio from './pages/codefolio/codefolio';
-// import Photofolio from './pages/photofolio/photofolio';
+import Photofolio from './pages/photofolio/photofolio';
 // import Footer from './components/footer/footer';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/contact" component= {Contact}  />
         <Route exact path="/about" component= {About}  />
         <Route exact path="/code" component= {CodeFolio}  />
-        {/* <Route exact path="/gallery" component= {Photofolio}  /> */}
+        <Route exact path="/gallery" component= {Photofolio}  />
 
         {/* <Footer /> */}
 
