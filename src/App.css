@@ -88,7 +88,7 @@
 
    .bio-container {
       color: black;
-      /* background-image: url(./leaves-pattern.png); */
+      background-image: url(../src/assets/images/misc/leaves-pattern.png);
       padding: 0px 100px;
       display: flex;
       margin-top: 150px;
@@ -128,7 +128,7 @@
    }
    .portfolio-container {
       color: black;
-      /* background-image: url(./leaves-pattern.png); */
+      background-image: url(../src/assets/images/misc/leaves-pattern.png);
       box-shadow: 0px 0px 21px 2px slategrey;
       width: -webkit-fill-available;
       padding-top: 25px;
@@ -166,7 +166,7 @@
 
    .contact-container {
       color: black;
-      /* background-image: url(./leaves-pattern.png); */
+      background-image: url(../src/assets/images/misc/leaves-pattern.png);
       position: absolute;
       border-radius: 1%;
       display: flex;
@@ -241,7 +241,7 @@
    /* ____________________________________________ Photo Portfolio ______________________________________________ */
    .photo-container {
       display: flex;
-      /* background-image: url(./leaves-pattern.png); */
+      background-image: url(../src/assets/images/misc/leaves-pattern.png);
       justify-content: space-evenly;
       padding: 50px 50px;
    }
@@ -415,7 +415,7 @@
          padding: 0;
       }
       .bio-contents {
-         /* background-image: url(./leaves-pattern.png); */
+         background-image: url(../src/assets/images/misc/leaves-pattern.png);
          display: block;
       }
 
