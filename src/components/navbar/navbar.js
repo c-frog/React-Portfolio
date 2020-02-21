@@ -6,29 +6,29 @@ function Navbar() {
    return (
 
    <div>
-      <div class="navbar">
+      <div className="navbar">
 
-         <nav class="links">
-            <ul class="navlinks">
-               <li><a class="navlinks" href="photoPortfolio.html">photography</a></li>
-               <li><a class="navlinks" href="aboutme.html">about</a></li>
-               <li><a id="name-link" href="aboutme.html">Clyde Plasencia</a></li>
-               <li><a class="navlinks" href="contact.html">contact</a></li>
-               <li><a class="navlinks" href="codePortfolio.html">code</a></li>
+         <nav className="links">
+            <ul className="navlinks">
+               <li><Link className="navlinks" to="/gallery">photography</Link></li>
+               <li><Link className="navlinks" to="/about">about</Link></li>
+               <li><Link id="name-link" to="/">Clyde Plasencia</Link></li>
+               <li><Link className="navlinks" to="/contact">contact</Link></li>
+               <li><Link className="navlinks" to="/code">code</Link></li>
             </ul>
          </nav>
 
       </div>
 
-      <div class="mobile-navbar">
+      <div className="mobile-navbar">
 
-         <nav class="links">
-            <a id="name-link" href="aboutme.html">Clyde Plasencia</a>
-               <ul class="navlinks">
-                  <li><a class="navlinks" href="photoPortfolio.html">photography</a></li>
-                  <li><a class="navlinks" href="aboutme.html">about</a></li>
-                  <li><a class="navlinks" href="contact.html">contact</a></li>
-                  <li><a class="navlinks" href="codePortfolio.html">code</a></li>
+         <nav className="links">
+            <Link id="name-link" to="/">Clyde Plasencia</Link>
+               <ul className="navlinks">
+               <li><Link className="navlinks" to="/gallery">photography</Link></li>
+               <li><Link className="navlinks" to="/about">about</Link></li>
+               <li><Link className="navlinks" to="/contact">contact</Link></li>
+               <li><Link className="navlinks" to="/code">code</Link></li>
                </ul>
          </nav>
       </div>

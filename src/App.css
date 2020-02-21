@@ -1,0 +1,452 @@
+   /* ____________________________________________ General ______________________________________________ */
+
+
+   body {
+      background-color: black;
+      font-family: 'Noto Sans', sans-serif;
+      margin: 0;
+   }
+   #bold {
+      font-weight: 800;
+      font-size: 14pt;
+   }
+   .background-image {
+      /* height: 100vh; */
+      z-index: -1;
+      position: sticky;
+      width: 100%;
+      min-height: 100px;
+   }
+
+   /* ==== Navbar ==== */
+
+   /* .navbar {
+      text-align: center;
+      margin: auto;
+      padding: 15px 0;
+      width: 100vw;
+   } */
+      .links {
+         justify-content: space-around;
+         margin: auto;
+      }
+         ul {
+            display: flex;
+         }
+            #name-link {
+                  font-size: 24pt;
+                  font-family: 'Noto Sans', sans-serif;
+                  text-decoration: inherit;
+                  color: whitesmoke;
+            }
+                  .navlinks {
+                     display: flex;
+                     padding: 14px 0px 14px 0px;
+                     justify-content: space-around;
+                     text-decoration: none;
+                     color: #d3d3d3;
+                     margin: auto;
+                     list-style: none;
+                     padding-left: 3vw;
+                     padding-right: 7vw;
+                     font-size: 14pt;
+                  } 
+                  li {
+                     text-align: center;
+                  }
+
+   .mobile-navbar {
+      display: none;
+   }
+
+   img {
+      border-radius: 2px;
+   }
+   /* ____________________________________________ Landing Page ______________________________________________ */
+
+
+   #index-image {
+      z-index: -1;
+      position: fixed;
+      width: 100vw;
+   }
+   .index-icons {
+      position: absolute;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      font-size: 75pt;
+   }
+   .homeIcons {
+      color: white;
+      padding: 200px 100px 100px 100px;
+   }
+
+
+   /* ____________________________________________ About Me ______________________________________________ */
+
+
+   .bio-container {
+      color: black;
+      /* background-image: url(./leaves-pattern.png); */
+      padding: 0px 100px;
+      display: flex;
+      margin-top: 150px;
+      position: absolute;
+      box-shadow: 0px 0px 2px 2px ghostwhite;
+   }
+   .bio-contents {
+      float: left;
+      padding: 5%;
+      overflow: auto;
+      display: flex;
+      position: relative;
+
+   }
+   #bio-pic {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 3%;
+         box-shadow: 0px 0px 21px 2px #7f7f81;
+   }
+   #bio {
+      padding-left: 5%;
+      letter-spacing: 1px;
+      line-height: 1.7;
+      padding-top: 25px;
+   }
+
+
+   /* ____________________________________________ Coding Portfolio ______________________________________________ */
+
+
+   #codePortfolio-background {
+      z-index: -1;
+      height: 100vh;
+      width: 100%;
+   }
+   .portfolio-container {
+      color: black;
+      /* background-image: url(./leaves-pattern.png); */
+      box-shadow: 0px 0px 21px 2px slategrey;
+      width: -webkit-fill-available;
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+   .card-row {
+      display: flex;
+      justify-content: center;
+   }
+   .card-img-top {
+      width: 275px;
+      height: 50%;
+      box-shadow: 0px 0px 10px 2px #6b6b6d;
+   }
+   .card {
+      text-align: center;
+      background-color: ghostwhite;
+      margin: 5px 15px 5px 15px;
+      padding: 20px 15px;
+      border: solid 1px lightgray;
+      height: 420px;
+      box-shadow: 0px 0px 21px 2px slategrey;
+
+   }
+
+   .card-title {
+      font-size: large;
+      margin-bottom: 0;
+      
+   }
+
+
+   /* ____________________________________________ Contact ______________________________________________ */
+
+
+   .contact-container {
+      color: black;
+      /* background-image: url(./leaves-pattern.png); */
+      position: absolute;
+      border-radius: 1%;
+      display: flex;
+      justify-content: center;
+      width:100%;
+      padding: 0;
+      margin: 100px 0px;
+
+   }
+   #contact-background {
+      position: fixed;
+      
+   }
+   .row {
+      display: flex;
+      z-index: 1;
+      width: 700px;
+      height: 500px;
+      background-color: #ffffff;
+      margin-top: 0;
+      padding: 25px 25px;
+      position: relative;
+   }
+   .column {
+      width: 50%;
+      padding: 35px 22px;
+   }
+   #contact-form {
+      display: grid;
+   }
+   label {
+      padding-bottom: 10px;
+      padding-top: 15px;
+      padding-left: 3px;
+   }
+   input {
+      height: 3em;
+   }
+   #emailBody {
+      width: 600px;
+      height: 150px;
+      border: lightsteelblue 1px solid;
+      border-radius: 2px;
+      margin-bottom: 15px;
+   }
+   #nameSubmit {
+      width: 300px;
+      border: lightsteelblue 1px solid;
+      border-radius: 2px;
+   }
+   #subjectSubmit {
+      width: 300px;
+      margin-bottom: 15px;
+      border: lightsteelblue 1px solid;
+      border-radius: 2px;
+   }
+   #submitBtn {
+      width: 70px;
+      height: 25px;
+      font-size: 12pt;
+      border: lightsteelblue 1px solid;
+      border-radius: 2px;
+   }
+   .contact-links {
+      text-decoration: none;
+      color: black;
+      font-size: 25pt;
+   }
+
+
+
+   /* ____________________________________________ Photo Portfolio ______________________________________________ */
+   .photo-container {
+      display: flex;
+      /* background-image: url(./leaves-pattern.png); */
+      justify-content: space-evenly;
+      padding: 50px 50px;
+   }
+   .gallery {
+      width: 400px;
+      margin: 20px;
+      padding: 5px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      box-shadow: 10px 0px 20px 1px rgb(124, 124, 124);
+   }
+   .col1 {
+      width: 50%;
+   }
+
+   .soloStill {
+      width: 40vw;
+      margin: .5vw 1vw 1vw .5VW;
+      /* box-shadow: darkgrey 0px 0px 13px -1px; */
+      padding: 5px;
+      background: whitesmoke;
+   }
+
+   .r1 {
+      display: flex;
+      justify-content: center;
+   }
+
+   .subHead {
+      text-align: center;
+      color: #d3d3d3;
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+   }
+   .carousel {
+      margin: .5vw .5vw 1vw 1vw;
+      width: 70vw;
+      /* box-shadow: darkgrey 0px 0px 13px -1px; */
+   }
+   .carousel-inner {
+      overflow: visible;
+   }
+   .d-block {
+      padding: 5px 5px 5px 5px ;
+      background: whitesmoke;
+   }
+   .stills {
+      text-align: center;
+   }
+   .still {
+      width: 45vw;
+      margin: 1vw;
+      padding: 5px;
+      background: whitesmoke;
+      /* box-shadow: darkgrey 0px 0px 13px -1px; */
+   }
+   .rando {
+      width: 80vw;
+      margin: 1vw;
+      padding: 5px;
+      background: whitesmoke;
+   }
+   /* ____________________________________________ Media Queries ______________________________________________ */
+
+
+   @media screen and (max-width: 980px){
+      .bodycontainer {
+         margin: 2% 25% 27% 4%;
+   }
+      .name {
+         margin-left: -8%;
+      }
+      #portpics {
+         height: 38em;
+      }
+      .pic {
+         width: 90%;
+      }
+      .text {
+         position: absolute;
+         width: 90%;
+      }
+      
+      .projects {
+         display: grid;
+         float: left;
+         text-align: left;
+      }
+   }
+
+
+   @media screen and (max-width: 768px){
+
+      .bio-contents {
+         display: block;
+      }
+
+      /* CONTACT */
+      .row {
+         width: 100vw;
+      }
+      .contact-links {
+         font-size: 14pt;
+      }
+
+      /* CODE PORTFOLIO */
+      .card-row {
+         display: block;
+         text-align: -webkit-center;
+      }
+      .card {
+         margin-bottom: 25px;
+      }
+      
+   }
+
+   @media screen and (max-width: 640px){
+      
+      /* ====== NAVBAR ====== */
+      /* .navbar {
+         width: 100vw;
+      } */
+      #emailBody {
+         width: 300px;
+      }
+      #nameSubmit {
+         width: 160px;
+      }
+      #subjectSubmit {
+         width: 160px;
+      }
+      .bio-contents {
+         display: block;
+      }
+   }
+
+   @media screen and (max-width: 699px) {
+      .navbar {
+         display: none;
+      }
+      .mobile-navbar {
+         display: flex;
+         padding-top: 15px;
+      }
+      ul {
+         display: none;
+      }
+      .navlinks {
+         display: flow-root;
+         padding-left: 0;
+         font-style: italic;
+      }
+      .background-image {
+         display: none;
+      }
+
+      /* INDEX */
+      .index-icons {
+         margin-top: 45vh;
+         font-size: 30pt;
+
+      }
+      .homeIcons {
+         padding: 10px;
+      }
+
+      /* ABOUT */
+      .bio-container {
+         margin-top: 0;
+         padding: 0;
+      }
+      .bio-contents {
+         /* background-image: url(./leaves-pattern.png); */
+         display: block;
+      }
+
+      /* CODE PORTFOLIO */
+      .portfolio-container {
+         display: block;
+      }
+
+      /* PHOTO GALLERY */
+      .r1 {
+         display: grid;
+         justify-items: center;
+      }
+      .w-100 {
+         width: 80vw;
+      }
+      .stills {
+         display: grid;
+         justify-items: center;
+      }
+      .still {
+         width: 80vw!important;
+      }
+      .soloStill {
+         width: 80vw;
+      }
+
+
+      /* CONTACT PAGE */
+      .contact-container {
+         margin-top: 0;
+      }
+
+   }

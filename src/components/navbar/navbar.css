@@ -1,0 +1,32 @@
+/* .links {
+justify-content: space-around;
+margin: auto;
+}
+ul {
+      display: flex;
+}
+      #name-link {
+         font-size: 24pt;
+         font-family: 'Noto Sans', sans-serif;
+         text-decoration: inherit;
+         color: whitesmoke;
+      }
+         .navlinks {
+            display: flex;
+            padding: 14px 0px 14px 0px;
+            justify-content: space-around;
+            text-decoration: none;
+            color: #d3d3d3;
+            margin: auto;
+            list-style: none;
+            padding-left: 3vw;
+            padding-right: 7vw;
+            font-size: 14pt;
+         } 
+         li {
+            text-align: center;
+         }
+
+.mobile-navbar {
+display: none;
+} */
