@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Resume from '../../assets/docs/Resume.pdf'
 
 function ContactCard () {
@@ -19,10 +20,10 @@ function ContactCard () {
             </div>
 
             <div className="column">
-               <a className="contact-links" href="https://github.com/c-frog"><i className="fab fa-github"></i> Github</a><br/>
-               <a className="contact-links" href="https://www.linkedin.com/in/clyde-plasencia-600523196/"><i className="fab fa-linkedin-in"></i> LinkedIn</a><br/>
-               <a className="contact-links" href="./assets/docs/Resume.pdf"><i className="fas fa-file"></i> Resume</a><br/>
-               <a className="contact-links" href={Resume}><i className="fas fa-phone-alt"></i>(720) 354-2419</a>
+               <Link className="contact-links" to="https://github.com/c-frog"><i className="fab fa-github"></i> Github</Link><br/>
+               <Link className="contact-links" to="https://www.linkedin.com/in/clyde-plasencia-600523196/"><i className="fab fa-linkedin-in"></i> LinkedIn</Link><br/>
+               <Link className="contact-links" to={Resume}><i className="fas fa-file"></i> Resume</Link><br/>
+               <Link className="contact-links" to=""><i className="fas fa-phone-alt"></i>(720) 354-2419</Link>
             </div>
 
          </div>
