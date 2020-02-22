@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
 
-      <body className="body">
+      {/* <body className="body"> */}
 
         <Navbar />
 
@@ -26,7 +26,7 @@ function App() {
 
         {/* <Footer /> */}
 
-      </body>
+      {/* </body> */}
       
     </Router>
   );

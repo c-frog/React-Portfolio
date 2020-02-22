@@ -10,7 +10,7 @@ function Landing() {
             <i className="homeIcons fas fa-laptop-code"></i>
          </div>
 
-         <img src={MeredithCampers} id="index-image" />
+         <img src={MeredithCampers} id="index-image" alt="..." />
       </div>
    )
 }
