@@ -7,13 +7,10 @@ import About from './pages/about/about';
 import Contact from './pages/contact/contact';
 import CodeFolio from './pages/codefolio/codefolio';
 import Photofolio from './pages/photofolio/photofolio';
-// import Footer from './components/footer/footer';
 
 function App() {
   return (
     <Router>
-
-      {/* <body className="body"> */}
 
         <Navbar />
 
@@ -24,10 +21,6 @@ function App() {
         <Route exact path="/code" component= {CodeFolio}  />
         <Route exact path="/gallery" component= {Photofolio}  />
 
-        {/* <Footer /> */}
-
-      {/* </body> */}
-      
     </Router>
   );
 }
