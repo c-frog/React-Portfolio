@@ -15,9 +15,9 @@ import DroneCreek from '../../assets/images/landscape/dronecreek.jpg';
 import SoprisBW from '../../assets/images/landscape/SoprisBW.jpg';
 import Lookout from '../../assets/images/landscape/LO.jpg';
 import AdamsLake from '../../assets/images/landscape/Glacierlake.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'jquery/dist/jquery.min.js'
-import 'bootstrap/dist/js/bootstrap.min.js'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'jquery/dist/jquery.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
 
 function Landscape () {
    return (
